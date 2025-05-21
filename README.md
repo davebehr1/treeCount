@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/22818d30-2555-4d12-bc92-e7ed002f3719" width="400" />
 <img src="https://github.com/user-attachments/assets/6747d277-e7fa-45fe-b079-261a1450f092" width="400" />
-
+<img src="https://github.com/user-attachments/assets/560f37b5-f722-46fc-8454-3cfd5384f4ba" width="400" />
 
 ## Accessing the API Documentation
 
