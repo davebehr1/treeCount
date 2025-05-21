@@ -27,7 +27,13 @@ async def missing_tree_locations(
     """
     Imputes missing tree locations.
     """
-    response_data = await aerobotics_service.fetch_polygon_and_tree_locations(orchard_id)
+    try:
+        response_data = await aerobotics_service.fetch_polygon_and_tree_locations(orchard_id)
+    except ValueError as ve:
+        raise HTTPException(status_code=400, detail=f"Bad request: {str(ve)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+    
     tree_locations: List[tuple] = response_data['tree_locations']
     polygon: Polygon =  response_data["polygon"]
 
