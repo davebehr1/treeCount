@@ -24,3 +24,11 @@ You can interact with the Missing Trees service using the following endpoints:
 ## Deployment Information
 
 The service is deployed in a Docker container hosted on a DigitalOcean Droplet.
+
+
+## Test data
+
+### I tried to use a hough transform to determine the grid pattern but struggled to get consistent result.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/3dd71ec5-0238-4d84-958f-9021ee096f53"/>
+
